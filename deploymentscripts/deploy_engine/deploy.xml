@@ -438,7 +438,7 @@ xmlns:unless="ant:unless">
 		<echo message="Server Tags updated :  ${PWC_config_file}"/>
 		
 		<property name="full.index" value="Y"/>
-		<import.3DSpace.index script="deploy.tcl" procedure="import3DSpaceIndex" config.file="C:/Apps/jenkins/workspace/SCM_Project/pwc.master.build.20200630120004_20200630120006/server/platform_management/3DSpaceIndex/PWC_config.xml" full.index="${full.index}"/> <!--import 3d space index-->
+		<import.3DSpace.index script="deploy.tcl" procedure="import3DSpaceIndex" config.file="C:/Apps/jenkins/workspace/SCM_Project/pwc.master.build.20200630120005_20200630120007/server/platform_management/3DSpaceIndex/PWC_config.xml" full.index="${full.index}"/> <!--import 3d space index-->
 		<echo message="Import 3D Space Index successful !!"/>
 
 	</target>
